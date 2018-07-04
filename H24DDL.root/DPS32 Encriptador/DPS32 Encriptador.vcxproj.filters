@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1de83e12-5ee1-47f8-b8b6-d81d3e06d466}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6816d4f4-2609-4990-9dd5-4234cf64885f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8b309f80-c6bd-4091-bc8f-eea013fde61e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DPS32Encriptador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPS32EncriptadorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\QUSRINC\Msgtrk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\QUSRINC\Saf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Banco.BNP\BNPDPS24.2010.Next\DPS32 Encriptador\Crypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DPS32Encriptador.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DPS32Encriptador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPS32EncriptadorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DPS32BAT.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DPS32Encriptador.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DPS32Encriptador.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nocomm_l.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ready.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\stopped.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\unavaila.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

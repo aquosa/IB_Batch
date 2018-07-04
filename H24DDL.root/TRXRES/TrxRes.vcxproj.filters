@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{71fc5e9b-b085-4823-829a-8c6b74792c8d}</UniqueIdentifier>
+      <Extensions>*.cpp;*.c</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{89456d4b-eb81-4731-b0a1-5f01ed862c6d}</UniqueIdentifier>
+      <Extensions>*.rc</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{9635a3c2-21ab-4df3-9191-b549dd8ace1e}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ATMtrxR4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ATMtrxR6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CToTcp4u.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EXTRtrx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proctrx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="respcde.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TDFtrx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trxres.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>Resource files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrxRes.rc">
+      <Filter>Resource files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\QUSRINC\dpcsys.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Qusrinc\extrctst.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\QUSRINC\Trxres.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+LIBRARY H24UL4
+EXPORTS 
+	send_receive_h200	     @1
+	send_receive_h600	     @2
+	format_h200			     @3
+	format_h600			     @4
+	set_field_h600		     @5
+	set_field_h200		     @6
+	get_field_h610		     @7
+	get_field_h210		     @8
+	send_h420			     @9
+	get_output_msg		     @10
+	get_input_msg		     @11
+	send_generic		     @12
+	get_remote_host_config   @13
+	set_config_filename	     @14
+	send_h200                @15
+	encrypt_msg			     @16
+	decrypt_msg			     @17
+	set_field_seqnum         @18
+	set_field_prefix		 @19
+	check_remote_host_config @20
+	get_local_host_config    @21
+	send_receive_h205	     @22
+	format_h205			     @23	
+	set_field_h205		     @24
+	get_field_h215		     @25	

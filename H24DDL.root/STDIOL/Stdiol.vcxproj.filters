@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{acd66361-e82c-40ef-a995-eacc44bb23f6}</UniqueIdentifier>
+      <Extensions>*.rc</Extensions>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{80b84456-8eb8-439d-aa21-93c25dac244f}</UniqueIdentifier>
+      <Extensions>*.cpp;*.c</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{bcfbd82a-0217-477a-b7b6-d78726fec332}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{fe682da0-cb58-45b0-878e-be4c83b5a3d9}</UniqueIdentifier>
+      <Extensions>lib</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="STDIOL.RC">
+      <Filter>Resource files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FtpParam.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpSend.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpSoat.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="packddec.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdiol.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Stdiol.def">
+      <Filter>Source files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\QUSRINC\Stdiol.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

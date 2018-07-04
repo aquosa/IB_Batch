@@ -1,0 +1,142 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// IT24 Sistemas S.A.
+// INTERFACE para DATANET E_SETTLEMENT y DPS 
+//
+// Tarea        Fecha           Autor   Observaciones
+// [Inicial]    2003.12.05      mdc     ID BANCOS
+// [Inicial]    2006.09.04      mdc     HIPOTECARIO. LISTA BCRA COMPLETA.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+#ifndef _DATANET_BCRA_H_
+#define _DATANET_BCRA_H_
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Codigos de bancos ante el BCRA, que implementaron DPS24
+#define BCRA_ID_BANSUD	     "67 "
+#define BCRA_ID_MACRO	     "285"
+#define BCRA_ID_SUQUIA	     "255" // (TAMBIEN 387, VER LISTA AL PIE)
+#define BCRA_ID_HIPOTECARIO  "44 "
+#define BCRA_ID_TDFUEGO      "268"
+#define BCRA_ID_REGCUYO      "79 "
+#define BCRA_ID_INTERF		 "147"
+// Codigos de bancos ante el BCRA, que implementaron DPS24
+#define BCRA_ID_BANSUD_I	     67
+#define BCRA_ID_MACRO_I	        285
+#define BCRA_ID_SUQUIA_I        255 // (TAMBIEN 387, VER LISTA AL PIE)
+#define BCRA_ID_HIPOTECARIO_I	 44
+#define BCRA_ID_TDFUEGO_I       268
+#define BCRA_ID_REGCUYO_I        79
+#define BCRA_ID_INTERF_I		147
+// Codigo de esta compilacion 
+#define BCRA_ID_DEFAULT     BCRA_ID_INTERF
+#define BCRA_ID_DEFAULT_I   BCRA_ID_INTERF_I
+#define BCRA_ALTERNATE_ID_I BCRA_ID_INTERF_I // (PARA CASOS RAROS)
+//////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////
+// LISTA DE ENTIDADES FINANCIERAS PUBLICAS DEL B.C.R.A. AL 1-SEP-2006  //
+/////////////////////////////////////////////////////////////////////////
+/*
+BANCO DE CORRIENTES S.A.	                00094
+BANCO DE INVERSION Y COMERCIO EXTERIOR S	00300
+BANCO DE LA CIUDAD DE BUENOS AIRES	        00029
+BANCO DE LA NACION ARGENTINA	            00011
+BANCO DE LA PAMPA SOCIEDAD DE ECONOMÍA M	00093
+BANCO DE LA PROVINCIA DE BUENOS AIRES	    00014
+BANCO DE LA PROVINCIA DE CORDOBA S.A.	    00020
+BANCO DEL CHUBUT S.A.	                    00083
+BANCO MUNICIPAL DE ROSARIO	                00065
+BANCO PROVINCIA DE TIERRA DEL FUEGO	        00268
+BANCO PROVINCIA DEL NEUQUÉN SOCIEDAD ANÓ	00097
+NUEVO BANCO BISEL S.A.	                    00388
+NUEVO BANCO DEL CHACO S. A.	                00311
+*/
+/////////////////////////////////////////////////////////////////////////
+// LISTA DE ENTIDADES FINANCIERAS PRIVADAS DEL B.C.R.A. AL 1-SEP-2006  //
+/////////////////////////////////////////////////////////////////////////
+/* 
+ABN AMRO BANK N. V.	                        00005
+AMERICAN EXPRESS BANK LTD. SOCIEDAD ANON	00295
+BACS BANCO DE CREDITO Y SECURITIZACION S	00340
+BANCO B.I. CREDITANSTALT SOCIEDAD ANONIM	00147
+BANCO BANEX S.A.	                        00297
+BANCO BRADESCO ARGENTINA S.A.	            00336
+BANCO CETELEM ARGENTINA S.A.	            00331
+BANCO CMF S.A.	                            00319
+BANCO COFIDIS S.A.	                        00335
+BANCO COLUMBIA S.A.	                        00389
+BANCO COMAFI SOCIEDAD ANONIMA	            00299
+BANCO CREDICOOP COOPERATIVO LIMITADO	    00191
+BANCO DE FORMOSA S.A.	                    00315
+BANCO DE GALICIA Y BUENOS AIRES S.A.	    00007
+BANCO DE LA REPUBLICA ORIENTAL DEL URUGU	00269
+BANCO DE SAN JUAN S.A.	                    00045
+BANCO DE SANTA CRUZ S.A.	                00086
+BANCO DE SANTIAGO DEL ESTERO S.A.	        00321
+BANCO DE SERVICIOS FINANCIEROS S.A.	        00332
+BANCO DE SERVICIOS Y TRANSACCIONES S.A.	    00338
+BANCO DE VALORES S.A.	                    00198
+BANCO DEL SOL S.A.	                        00310
+BANCO DEL TUCUMAN S.A.	                    00060
+BANCO DO BRASIL S.A.	                    00046
+BANCO FINANSUR S.A.	                        00303
+BANCO HIPOTECARIO S.A.	                    00044
+BANCO ITAU BUEN AYRE S.A.	                00259
+BANCO JULIO SOCIEDAD ANONIMA	            00305
+BANCO MACRO BANSUD S.A.	                    00285
+BANCO MARIVA S.A.	                        00254
+BANCO MERCURIO S.A.	                        00293
+BANCO MERIDIAN S.A.	                        00281   
+BANCO PATAGONIA S.A.	                    00034
+BANCO PIANO S.A.	                        00301
+BANCO PRIVADO DE INVERSIONES SOCIEDAD AN	00306
+BANCO REGIONAL DE CUYO S.A.	                00079
+BANCO RIO DE LA PLATA S.A.              	00072
+BANCO ROELA S.A.	                        00247
+BANCO SAENZ S.A.	                        00277
+BANCO SUPERVIELLE S.A.	                    00027
+BANK OF AMERICA, NATIONAL ASSOCIATION	    00262
+BANKBOSTON, NATIONAL ASSOCIATION	        00015
+BBVA BANCO FRANCES S.A.	                    00017
+BNP PARIBAS	                                00266
+CAJA DE CREDITO "CUENCA" COOPERATIVA LIM	65203
+CAJA DE CREDITO COOPERATIVA LA CAPITAL D	64085
+CITIBANK N.A.	                            00016
+COMPAÑIA FINANCIERA ARGENTINA S.A.	        44077
+CREDILOGROS COMPAÑIA FINANCIERA S.A.	    44091
+DAIMLERCHRYSLER FINANCIAL SERVICES COMPA	44094
+DEUTSCHE BANK S.A.	                        00325
+FIAT CREDITO COMPAÑIA FINANCIERA S.A.	    44092
+FORD CREDIT COMPAÑIA FINANCIERA S.A.	    44059
+GE COMPAÑIA FINANCIERA S.A.	                44090
+GMAC COMPAÑIA FINANCIERA S.A.	            44093
+HEXAGON BANK ARGENTINA S.A.	                00265
+HSBC BANK ARGENTINA S.A.	                00150
+ING BANK N.V.	                            00294
+JOHN DEERE CREDIT COMPAÑÍA FINANCIERA S.	44096
+JPMORGAN CHASE BANK, NATIONAL ASSOCIATIO	00165
+MASVENTAS S.A. COMPAÑIA FINANCIERA	        45065
+MBA BANCO DE INVERSIONES S. A.	            00312
+MONTEMAR COMPAÑIA FINANCIERA S.A.	        45056
+MULTIFINANZAS COMPAÑIA FINANCIERA S.A.	    45072
+NUEVO BANCO DE ENTRE RÍOS S.A.	            00386
+NUEVO BANCO DE LA RIOJA SOCIEDAD ANONIMA	00309
+NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA	00330
+NUEVO BANCO INDUSTRIAL DE AZUL S.A.	        00322
+NUEVO BANCO SUQUÍA S.A.	                    00387
+PSA FINANCE ARGENTINA COMPAÑÍA FINANCIER	44098
+RCI BANQUE	                                00339
+ROMBO COMPAÑÍA FINANCIERA S.A.	            44095
+STANDARD BANK ARGENTINA S.A.	            00430
+THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.	    00018
+TOYOTA COMPAÑÍA FINANCIERA DE ARGENTINA	    44099
+TUTELAR COMPAÑIA FINANCIERA S.A.	        44068
+VOLKSWAGEN COMPAÑÍA FINANCIERA S.A.	        44088
+*/
+
+
+#endif 
+

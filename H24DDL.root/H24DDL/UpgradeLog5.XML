@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="H24DDL">
+</Property><Property Name="Archivo de la solución" Value="E:\TFS.local\Banco.Interfinanzas\Banco.Interfinanzas.DPS24Batch\InterFDPS24Batch\H24DDL.root\H24DDL\H24DDL.sln">
+</Property><Property Name="Date" Value="lunes, 16 de noviembre de 2015">
+</Property><Property Name="Time" Value="14:26">
+</Property><Property Name="Número de registro" Value="5">
+</Property></Properties><Event ErrorLevel="3" Project="APPCLIB" Source="..\APPCLIB\APPCLIB.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="DATANET" Source="..\DATANET\DATANET.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="DPCISO" Source="..\DPCISO\DPCISO.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="EBC2ASCI" Source="..\EBC2ASCI\EBC2ASCI.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="H24DDL" Source="H24DDL.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="Iso8583" Source="..\ISO8583\ISO8583\Iso8583.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="TrxRes" Source="..\TRXRES\TrxRes.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="WAppcSna" Source="..\WAPPCSNA\WAppcSna.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="Rodbc" Source="..\RODBC\Rodbc.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="Stdiol" Source="..\STDIOL\Stdiol.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="tcp4w32" Source="..\TCP4u_Library\tcp4u.330\tcp4w32\tcp4w32.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="Testiso" Source="..\ISO8583\TESTISO\Testiso.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="EBCDILIB" Source="..\EBC2ASCI\EBCDILIB\EBCDILIB.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="FuegoDPS" Source="..\FuegoDPS\FuegoDPS.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="RpcServer" Source="..\RpcServer\RpcServer.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="UMOVPBF" Source="..\UMOVPBF\UMOVPBF.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="DPS32AUT" Source="..\DPS32AUT\DPS32AUT.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="DPS32BAT" Source="..\DPS32BAT\DPS32BAT.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="DPS32" Source="..\DPS32\DPS32.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="DPS32REF" Source="..\DPS32REF\DPS32REF.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="WTESTISO" Source="WTESTISO\WTESTISO.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="UMOVPBFL" Source="..\UMOVPBFL\UMOVPBFL.vcxproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="DNBATMAC" Source="..\DNBATMAC\DNBATMAC.vcproj" Description="Converting project file 'E:\TFS.local\Banco.Interfinanzas\Banco.Interfinanzas.DPS24Batch\InterFDPS24Batch\H24DDL.root\DNBATMAC\DNBATMAC.vcproj'.">
+</Event><Event ErrorLevel="2" Project="DNBATMAC" Source="..\DNBATMAC\DNBATMAC.vcproj" Description="File 'E:\TFS.local\Banco.Interfinanzas\Banco.Interfinanzas.DPS24Batch\InterFDPS24Batch\H24DDL.root\DNBATMAC\DNBATMAC.vcproj' was not found.">
+</Event><Event ErrorLevel="2" Project="DNBATMAC" Source="..\DNBATMAC\DNBATMAC.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="DNBATMAC" Source="..\DNBATMAC\DNBATMAC.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="H24DDL.sln" Description="El archivo de soluciones no requiere conversión.">
+</Event><Event ErrorLevel="3" Project="" Source="H24DDL.sln" Description="No requiere conversión">
+</Event></UpgradeLog>

@@ -1,0 +1,271 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_UNAVAILABLE         ICON                    "res\\unavaila.ico"
+IDI_STOPPED             ICON                    "res\\stopped.ico"
+IDI_READY               ICON                    "res\\ready.ico"
+IDI_NOCOMM_LOGOUT       ICON                    "res\\nocomm_l.ico"
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Spain, International Sort) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DPS32BAT.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de DPS32AUT"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DPS32AUT Versión 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003, 2004",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "Aceptar",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DPS32ENC_DIALOG DIALOGEX 0, 0, 205, 218
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DPS24 ENCRIPTADOR"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&Salir",IDCANCEL,131,188,57,14,WS_GROUP
+    DEFPUSHBUTTON   "&Aceptar",IDOK,131,172,57,14
+    GROUPBOX        "",IDC_STATIC,7,7,191,204
+    LTEXT           "Usuario",IDC_STATIC,15,45,47,9
+    LTEXT           "Password",IDC_STATIC,16,65,47,9
+    ICON            IDR_MAINFRAME,IDC_HOST_STATUS,14,16,21,20,SS_REALSIZEIMAGE | WS_BORDER | WS_GROUP,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    LTEXT           "Repetir Password",IDC_STATIC,16,84,47,18
+    EDITTEXT        IDC_EDIT_USER,70,41,119,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,69,65,119,13,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSCONFIRM,69,86,119,13,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Usuario WS",IDC_STATIC,14,110,47,9
+    LTEXT           "Password WS",IDC_STATIC,15,130,47,9
+    LTEXT           "Repetir Password WS",IDC_STATIC,15,149,47,18
+    EDITTEXT        IDC_EDIT_USER2,69,106,119,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD2,68,130,119,13,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSCONFIRM2,68,151,119,13,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,0
+ PRODUCTVERSION 2,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04b0"
+        BEGIN
+            VALUE "Comments", "DPS24 AUTORIZADOR"
+            VALUE "CompanyName", "COA S.A."
+            VALUE "FileDescription", "Aplicación MFC DPS32AUT"
+            VALUE "FileVersion", "2.0.0.0"
+            VALUE "InternalName", "DPS32AUT"
+            VALUE "LegalCopyright", "Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008"
+            VALUE "LegalTrademarks", "COA S.A."
+            VALUE "OriginalFilename", "DPS32AUT.EXE"
+            VALUE "ProductName", "DPS24 Online"
+            VALUE "ProductVersion", "2.0.0.0"
+            VALUE "SpecialBuild", "RPC EXTRACT"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DPS32ENC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&Acerca de DPS32AUT..."
+    IDS_SNA_APPC_RTP        "DPRE"
+    IDS_SNA_APPC_RLU        "DNCICST1"
+    IDS_BAD_LOCALE          "La configuracion regional debe estar establecida como para los EE.UU, es decir, Punto Decimal es "".""  y Punto Millar es "","""
+    IDS_NO_LOGIN            "Sin poder efectuar el LOGIN"
+    IDS_NO_LOGOUT           "Sin poder hacer el LOGOUT"
+    IDS_LOGOUT_OK           "El Logout ha sido satisfactorio"
+    IDS_LOGIN_OK            "El Login ha resultado exitoso"
+    IDS_LOGIN_PRIOR_TO_CONNECT "Debe hacer el Login antes de iniciar el DPS"
+    IDS_NO_REINIT           "No se debe cortar y reiniciar la comunicacion una vez que ya se establecio."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SNA_APPC_TP         "DPRE"
+    IDS_SNA_APPC_LU         "LU6CUY01"
+    IDS_NO_SNA_INIT         "Sin poder iniciar SNA Cliente"
+    IDS_NO_SNA_SESSIONS_AVAIL "Sin sesiones disponibles en la LU de SNA"
+    IDS_NO_WINAPPC          "Sin poder iniciar la libreria SNA de MsWindows"
+    IDS_NO_MSG_REGISTRATION "Sin poder registrar el mensaje de libreria SNA de MsWindows"
+    IDS_NO_MEMORY           "Sin memoria para poder instanciar la libreria de resolucion de transaferencia DATANET"
+    IDS_NO_ACTIVE_STATE_LOGIN 
+                            "El estado de procesamiento de DPS - DATANET no es 'ACTIVO'. "
+    IDS_MORE_INSTANCES      "No se puede tener mas de 1 sesion activa por vez"
+    IDS_MORE_INSTANCES2     "No se puede tener mas de 1 sesion activa por vez"
+END
+
+#endif    // Spanish (Spain, International Sort) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Argentina) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_ARGENTINA
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DPS32AUT.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.esp\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Argentina) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#endif //_WIN32
+//#include "res\DPS32AUT.rc2"  // non-Microsoft Visual C++ edited resources
+//#include "l.esp\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

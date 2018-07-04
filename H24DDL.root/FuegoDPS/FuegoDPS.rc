@@ -1,0 +1,240 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\H24Cmd.ico"
+IDI_UNAVAILABLE         ICON                    "res\\ico00001.ico"
+IDI_STOPPED             ICON                    "res\\ico00003.ico"
+IDI_READY               ICON                    "res\\ico00002.ico"
+IDI_NOCOMM              ICON                    "res\\icon1.ico"
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Spain, International Sort) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de FuegoDPS"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "FuegoDPS Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "Aceptar",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_FUEGODPS_DIALOG DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FuegoDPS v2.4.9.3"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Cargar / Impactar",IDCARGAR_IMPACTAR,43,128,90,14
+    GROUPBOX        "Desde DATANET",IDC_STATIC,7,62,151,87
+    GROUPBOX        "Hacia DATANET",IDC_STATIC,162,62,151,86
+    LTEXT           "Archivo",IDC_STATIC,13,75,33,9
+    COMBOBOX        IDC_COMBO_FILES1,53,73,101,86,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Emitir &Saldos",IDEMITIR_SALDOS,194,91,96,14
+    LTEXT           "Archivo",IDC_STATIC,170,75,29,9
+    COMBOBOX        IDC_COMBO_FILES2,204,73,101,98,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Emitir &Movimientos Ctas.",IDEMITIR_MOVIMIENTOS,194,129,96,14
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",WS_BORDER,8,48,306,13
+    EDITTEXT        IDC_EDIT1,7,153,303,44,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY
+    DEFPUSHBUTTON   "&Salir",IDOK,249,6,64,14,0,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "Emitir Saldos &Historicos",IDEMITIR_SALDOS_HIS,194,110,96,14
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,66,25,57,15
+    LTEXT           "Fecha Desde",IDC_STATIC,16,28,50,9
+    GROUPBOX        "Generales",IDC_STATIC,9,0,306,44
+    CONTROL         "",IDC_DATETIMEPICKER2,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,66,9,57,15
+    LTEXT           "Fecha Hasta",IDC_STATIC,15,12,46,9
+    CONTROL         "¿Reprocesamiento?",IDC_CHECK_REPRO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,11,79,10
+    CONTROL         "Convertir a ASCII",IDC_CHECK_ASCII,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,129,26,70,10
+    EDITTEXT        IDC_EDIT_INTERFASE_CTACTE_CAJAHO,275,24,36,10,ES_RIGHT | ES_UPPERCASE | ES_READONLY
+    RTEXT           "Interfase",IDC_STATIC,230,25,37,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,4,9,3
+ PRODUCTVERSION 2,4,9,3
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04e4"
+        BEGIN
+            VALUE "Comments", "DPS BATCH Interfinanzas"
+            VALUE "CompanyName", "COA SA"
+            VALUE "FileDescription", "Aplicación MFC DPS Batch"
+            VALUE "FileVersion", "2.4.9.3"
+            VALUE "InternalName", "FuegoDPS.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2015-2016"
+            VALUE "LegalTrademarks", "COA SA"
+            VALUE "OriginalFilename", "FuegoDPS.exe"
+            VALUE "ProductName", "Batch DPS"
+            VALUE "ProductVersion", "2.4.9.3"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_FUEGODPS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&Acerca de FuegoDPS..."
+END
+
+#endif    // Spanish (Spain, International Sort) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Argentina) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_ARGENTINA
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\FuegoDPS.rc2""  // Recursos editados que no son de Microsoft Visual C++\r\n"
+    "#include ""afxres.rc""         // Componentes estándar\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Argentina) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#include "res\FuegoDPS.rc2"  // Recursos editados que no son de Microsoft Visual C++
+#include "afxres.rc"         // Componentes estándar
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

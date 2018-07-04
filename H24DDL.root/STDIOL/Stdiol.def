@@ -1,0 +1,29 @@
+EXPORTS
+	day_of_year           @1
+	numnzpad              @2
+	antoi                 @3
+	hexcharbinary         @4
+	binaryhexchar         @5
+	binaryhexchardec      @6
+	open_file             @7
+	close_file            @8
+	write_file            @9
+	read_file             @20
+	read_file_str         @21
+	get_file_size         @22	
+	antol                 @23
+	antofix               @24
+	open_file_ext         @25
+	DoFilePrinting        @26
+	strnumlen             @27
+	strnumlenpad          @28
+	swapbyte			  @30
+	swapbytel			  @31
+	swapbytef			  @32
+	swapbytearray         @33
+	GetEBCDIC_ASCII       @40
+	GetASCII_EBCDIC       @41	
+	DateTimeToDateYYYYMMDD  @42
+	DateYYYYMMDDToDateTime  @43	
+	convert_extract_ammount @44
+	
